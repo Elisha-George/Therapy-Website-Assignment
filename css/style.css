@@ -115,16 +115,71 @@ html, body{
      background-image: url("/images/RightBanner.png");
  }
 .bannerContent{
-    margin-left: 20rem;
-    margin-top: 20rem;
+    margin-left: 16rem;
+    margin-top: 16rem;
 }
 .h1SmallHeading{
-    font-size: 5rem;
+    font-size: 6rem;
     line-height: 9px;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: bolder;
 
 }
 .h1BigandBold{
-    font-size: 6.5rem;
-    font-weight: bolder;
+    font-size: 11rem;
+    /* font-weight: bolder; */
+    font-family: 'Bitter', serif;
+/* font-family: 'Lobster', cursive; */
 }
+.bannerContent h4{
+    font-size: 2rem;
+    color: gray;
+}
+.bannerContent h5{
+    font-size: 2rem;
+    color: gray;
+    line-height: 17px;
+}
+.services{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.servicesBlocks{
+    margin-left: 6rem;
+    display: flex;
+    align-items: center;
+    height: 9rem;
+    
+}
+#service01{
+
+    border: 2px dashed blue;
+    background-color: rgb(233, 233, 248);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#service02{
+    border: 2px dashed rgb(151, 132, 37);
+    background-color: rgb(243, 233, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#service03{
+    border: 2px dashed rgb(167, 161, 161);
+    background-color: rgb(224, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+    .serviceInbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
  /* BANNER */
