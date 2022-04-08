@@ -1,0 +1,130 @@
+
+html{
+    font-size: 62.5%; 
+    /* now 1 rem = 10px */
+}
+@media (max-width:998px){
+
+    html{
+        font-size: 55%;
+    }
+
+}
+@media (max-width:768px){
+
+    html{
+        font-size: 45%;
+    }
+
+}
+
+html, body{
+    overflow: visible;
+    overflow-x: hidden;
+}
+
+/* index page */
+.header
+{
+    margin-top: 30px;
+}
+.logo
+{
+    padding-top: 9px;
+}
+.fa-envelope{
+    font-size: 3rem;
+    color: rgb(68, 234, 234);
+}
+.fa-phone{
+
+    font-size: 3rem;
+    color: rgb(68, 234, 234);
+}
+.btnAppointment{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 6rem;
+    background-color: rgb(169, 147, 50);
+    border: none;
+    font-size: 1.3rem;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.search{
+    padding-bottom: 10px;
+}
+/* .EmialInfo,.phoneInfo{
+    border-left: 2px solid black;
+} */
+
+
+/* NAV BAR */
+.navbar{
+    background-color: rgba(98, 139, 183, 0.921);
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+}
+.navbar-nav li h5{
+  color: white;
+  margin-left: 3rem;
+  font-size: 1.3rem;
+}
+.Social_Icons{
+    display      : flex;
+    /* margin-bottom: 5.0rem; */
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    /* margin-top: 3.0px; */
+    margin-top: .4rem;
+    margin-right: 9rem;
+    
+    
+}
+
+.fa{
+    color           : white;
+    border-radius   : 9rem;
+    padding         : 1.1rem;
+    font-size       : 2rem;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: #88aeed;
+    margin-right: 3.1rem;
+}
+/*
+ index page */
+
+ /* BANNER */
+ .leftBanner{
+     background-image: url("/images/leftBanner.png");
+     height: 65rem;
+ }
+ .rightBanner{
+     background-image: url("/images/RightBanner.png");
+ }
+.bannerContent{
+    margin-left: 20rem;
+    margin-top: 20rem;
+}
+.h1SmallHeading{
+    font-size: 5rem;
+    line-height: 9px;
+
+}
+.h1BigandBold{
+    font-size: 6.5rem;
+    font-weight: bolder;
+}
+ /* BANNER */
